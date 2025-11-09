@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep  7 20:48:19 AM
+// File generated:  Sat Oct 11 20:54:27 AM
 //
 //
 // Cvar	-	Setting
@@ -106,7 +106,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_Volume"
 		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
-		{ "0.5" }
+		{ "0.6" }
 	}
 
 	"tf_dingalingaling_effect"
@@ -132,7 +132,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_PitchLowDmg"
 		"#Tooltip_Dingaling_PitchLowDmg"
 		{ SLIDER 1 255 }
-		{ "103.459999" }
+		{ "113.449997" }
 	}
 
 	"tf_dingaling_pitchmaxdmg"
@@ -140,7 +140,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_PitchHighDmg"
 		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 1 255 }
-		{ "104" }
+		{ "114.760002" }
 	}
 
 	"tf_dingalingaling_lasthit"
@@ -148,7 +148,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_LastHitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_dingaling_lasthit_volume"
@@ -156,7 +156,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_LastHit_Volume"
 		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
-		{ "1" }
+		{ "0.75" }
 	}
 
 	"tf_dingalingaling_last_effect"
@@ -182,7 +182,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_LastHit_PitchLowDmg"
 		"#Tooltip_Dingaling_PitchLowDmg"
 		{ SLIDER 1 255 }
-		{ "233.740005" }
+		{ "100" }
 	}
 
 	"tf_dingaling_lasthit_pitchmaxdmg"
@@ -190,7 +190,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_LastHit_PitchHighDmg"
 		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 1 255 }
-		{ "27.959999" }
+		{ "100" }
 	}
 
 	"hud_combattext"
@@ -246,7 +246,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_rememberactiveweapon"
 		"#Tooltip_rememberactiveweapon"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_remember_lastswitched"
@@ -262,7 +262,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_sniperbell"
 		"#Tooltip_sniperbell"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category3"
@@ -276,7 +276,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_simple_disguise_menu_option"
 		"#Tooltip_simple_disguise_menu_option"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_autorezoom"
@@ -292,7 +292,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_nocrosshaironscopezoom"
 		"#Tooltip_nocrosshaironscopezoomn"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_medigun_autoheal"
@@ -300,7 +300,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_medigun_autoheal"
 		"#Tooltip_medigun_autoheal"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_medichealtargetmarker"
@@ -316,7 +316,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallers"
 		"#Tooltip_AutoMedicCallers"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_medicautocallersthreshold"
@@ -324,7 +324,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "90.110001" }
+		{ "75" }
 	}
 
 	"category4"
@@ -414,7 +414,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_FreezeCamHide"
 		"#Tooltip_FreezeCamHide"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_spectate_pyrovision"
@@ -445,7 +445,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"pyro_dof"
@@ -493,7 +493,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Contract_Progress_All" "1"
 			"#TF_Contract_Progress_Active" "2"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_contract_competitive_show"
@@ -506,14 +506,14 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Contract_Progress_All" "1"
 			"#TF_Contract_Progress_Active" "2"
 		}
-		{ "2" }
+		{ "0" }
 	}
 
 	"tf_scoreboard_mouse_mode"
 	{
 		"#TF_ScoreBoard_MouseMode"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_scoreboard_ping_as_text"
@@ -753,7 +753,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_ShowMarketDataOnItems_WhenBordersOnly" "1"
 			"#TF_ShowMarketDataOnItems_Always" "2"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_promotional_codes_button_show"
@@ -781,7 +781,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_DemoSupport_All" "2"
 			"#TF_DemoSupport_Tournament" "3"
 		}
-		{ "0" }
+		{ "2" }
 	}
 
 	"ds_dir"
@@ -789,7 +789,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_Dir"
 		"#TF_DemoSupport_Dir_ToolTip"
 		{ STRING }
-		{ "demos" }
+		{ "casual" }
 	}
 
 	"ds_prefix"
@@ -824,14 +824,14 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_DemoSupport_Notify_Chat" "1"
 			"#TF_DemoSupport_Notify_HUD" "2"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"ds_screens"
 	{
 		"#TF_DemoSupport_Screens"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"ds_min_streak"
@@ -839,7 +839,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_MinStreak"
 		"#TF_DemoSupport_MinStreak_ToolTip"
 		{ NUMBER 2 1000 }
-		{ "4" }
+		{ "1000" }
 	}
 
 	"ds_kill_delay"
@@ -847,7 +847,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_KillDelay"
 		"#TF_DemoSupport_KillDelay_ToolTip"
 		{ NUMBER 5 1000 }
-		{ "15" }
+		{ "1000" }
 	}
 
 	"ds_autodelete"
@@ -855,7 +855,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_AutoDelete"
 		"#TF_DemoSupport_AutoDelete_ToolTip"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }
