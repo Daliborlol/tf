@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Oct 11 20:54:27 AM
+// File generated:  Sat Aug 22 15:24:26 AM
 //
 //
 // Cvar	-	Setting
@@ -140,7 +140,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_PitchHighDmg"
 		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 1 255 }
-		{ "114.760002" }
+		{ "113.629997" }
 	}
 
 	"tf_dingalingaling_lasthit"
@@ -292,7 +292,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_nocrosshaironscopezoom"
 		"#Tooltip_nocrosshaironscopezoomn"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_medigun_autoheal"
@@ -362,7 +362,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_SpectateCarriedItems"
 		"#Tooltip_SpectateCarriedItems"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"glow_outline_effect_enable"
@@ -393,7 +393,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_viewmodelfov_option"
 		"#Tooltip_viewmodelfov_option"
 		{ SLIDER 54 70 }
-		{ "80" }
+		{ "70" }
 	}
 
 	"tf_spectator_target_location"
@@ -493,7 +493,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Contract_Progress_All" "1"
 			"#TF_Contract_Progress_Active" "2"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_contract_competitive_show"
@@ -711,7 +711,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_steamscreenshots"
