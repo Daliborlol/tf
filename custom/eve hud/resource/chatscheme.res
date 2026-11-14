@@ -219,24 +219,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -244,8 +250,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"16"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -253,8 +261,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -356,8 +366,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"tall"		"15"	[$X360]
 				"weight"	"700"
 				"yres"		"480 599"
@@ -365,8 +377,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"16"	[$POSIX]
 				"tall"		"17"	[$X360]
 				"weight"	"700"
 				"yres"		"600 767"
@@ -374,8 +388,10 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"15"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"tall"		"18"	[$X360]
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -383,8 +399,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaChat14"	[$POSIX]
+				"tall"		"17"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"tall"		"20"	[$X360]
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -392,8 +410,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"25"	[$POSIX]
 				"tall"		"25"	[$X360]
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -807,5 +827,18 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"		
+		// Linux: renamed MS core fonts, see resource/fonts/make_linux_fonts.py
+		"3"	"resource/fonts/eveverdanaol.ttf"
+		"4"	"resource/fonts/eveverdana.ttf"
+		"5"	"resource/fonts/eveverdanab.ttf"
+		"6"	"resource/fonts/eveverdanai.ttf"
+		"7"	"resource/fonts/eveverdanaz.ttf"
+		"8"	"resource/fonts/evetahoma.ttf"
+		"9"	"resource/fonts/evetahomabd.ttf"
+		"10"	"resource/fonts/evetrebuc.ttf"
+		"11"	"resource/fonts/evetrebucbd.ttf"
+		"12"	"resource/fonts/evetrebucit.ttf"
+		"13"	"resource/fonts/evetrebucbi.ttf"
+		"14"	"resource/fonts/evechat14.ttf"
 	}
 }

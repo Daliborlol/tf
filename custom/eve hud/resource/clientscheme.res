@@ -1117,16 +1117,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1134,8 +1138,10 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -1143,8 +1149,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -1152,8 +1160,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"25"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -1161,8 +1171,10 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
@@ -1178,10 +1190,21 @@ Scheme
 		}
 		"DefaultUnderline"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"34"
+				"weight"	"500"
+				"underline" "1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1198,24 +1221,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -1223,8 +1252,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -1232,8 +1263,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"24"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -1251,8 +1284,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaOL"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -1260,8 +1295,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaOL"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"16"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -1269,8 +1306,10 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaOL"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -1279,8 +1318,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaOL"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"24"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -1289,8 +1330,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdanaOL"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"26"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -1310,24 +1353,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -1335,8 +1384,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -1344,8 +1395,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"16"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -1356,24 +1409,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"18"	[!$POSIX]
+				"tall"		"19"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"21"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"21"	[!$POSIX]
+				"tall"		"23"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"24"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -1381,8 +1440,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"28"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"28"	[!$POSIX]
+				"tall"		"30"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -1390,8 +1451,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"30"	[!$POSIX]
+				"tall"		"31"	[$POSIX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -1399,8 +1462,10 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"21"	[$POSIX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
@@ -1415,11 +1480,22 @@ Scheme
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTrebuchet"
+				"tall"		"42"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Trebuchet MS"	[!$POSIX]
+				"name"		"EveTrebuchet"	[$POSIX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"tall"		"18"	[!$POSIX]
+				"tall"		"19"	[$POSIX]
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -1428,10 +1504,21 @@ Scheme
 
 		"PlayerPanelPlayerName"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"6"	[!$POSIX]
+				"tall"		"7"	[$POSIX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1441,37 +1528,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"25"	[$POSIX]
 				"weight"	"700"
 				"yres"	"1200 10000"
 			}
@@ -1947,10 +2044,21 @@ Scheme
 		}
 		"SpectatorKeyHints"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1958,10 +2066,21 @@ Scheme
 		}
 		"ClockSubText"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"9"	[!$POSIX]
+				"tall"		"10"	[$POSIX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1969,10 +2088,23 @@ Scheme
 		}
 		"ClockSubTextSuddenDeath"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"tall_hidef"	"9"
+				"tall_lodef"	"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
 				"weight"	"500"
@@ -1982,10 +2114,22 @@ Scheme
 		}
 		"ClockSubTextTiny"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"tall_hidef"	"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2053,10 +2197,20 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"51"
+				"weight"	"200"
+				"outline"	"1"
+				"yres"	"1024 1199"
+			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
-				"tall"		"18"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"18"	[!$POSIX]
+				"tall"		"23"	[$POSIX]
 				"weight"	"200"
 				"outline"	"1"
 			}
@@ -2107,10 +2261,21 @@ Scheme
 				"additive" "1"
 				"antialias" "1"
 			}
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"64"
+				"weight" "0"
+				"additive" "1"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"2"
 			{
-				"name"  "Verdana"
-				"tall"  "28"
+				"name"  "Verdana"	[!$POSIX]
+				"name"  "EveVerdana"	[$POSIX]
+				"tall"  "28"	[!$POSIX]
+				"tall"  "29"	[$POSIX]
 				"weight" "0"
 				"additive" "1"
 				"antialias" "1"
@@ -2118,10 +2283,21 @@ Scheme
 		}
 		"CloseCaption_Normal"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"65"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"29"	[$POSIX]
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2129,10 +2305,22 @@ Scheme
 		}
 		"CloseCaption_Italic"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"65"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"29"	[$POSIX]
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
@@ -2141,10 +2329,21 @@ Scheme
 		}
 		"CloseCaption_Bold"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"65"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"29"	[$POSIX]
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2152,10 +2351,22 @@ Scheme
 		}
 		"CloseCaption_BoldItalic"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"65"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"29"	[$POSIX]
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
@@ -2164,10 +2375,21 @@ Scheme
 		}
 		"CloseCaption_Small"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTahoma"
+				"tall"		"43"
+				"tall_hidef"	"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma"	[!$POSIX]
+				"name"		"EveTahoma"	[$POSIX]
+				"tall"		"16"	[!$POSIX]
+				"tall"		"20"	[$POSIX]
 				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2230,10 +2452,23 @@ Scheme
 		
 		"GoalText"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"30"
+				"tall_hidef"	"14"
+				"tall_lodef"	"17"
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
 				"weight"	"800"
@@ -2303,8 +2538,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"6"	[!$POSIX]
+				"tall"		"7"	[$POSIX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2314,8 +2551,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -2562,40 +2801,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"0"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"0"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"0"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"25"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"0"
@@ -2613,32 +2862,40 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"16"	[$POSIX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"23"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"24"	[!$POSIX]
+				"tall"		"26"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -2648,40 +2905,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"10"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"10"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"16"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"15"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -2741,10 +3008,23 @@ Scheme
 
 		TFFontSmall
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"tall_hidef"	"10"
+				"tall_lodef"	"12"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
 				"weight"	"0"
@@ -2754,10 +3034,23 @@ Scheme
 		}		
 		TFFontMedium
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"22"
+				"tall_hidef"	"10"
+				"tall_lodef"	"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"9"	[!$POSIX]
+				"tall"		"10"	[$POSIX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
 				"weight"	"400"
@@ -2768,10 +3061,21 @@ Scheme
 		
 		InstructionalText
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"25"
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"11"	[!$POSIX]
+				"tall"		"12"	[$POSIX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
@@ -2811,19 +3115,37 @@ Scheme
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTrebuchet"
+				"tall"		"53"
+				"weight"	"900"
+				"yres"	"1024 1199"
+			}
 			"1"			// brower item hostname
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
+				"name"		"Trebuchet MS"	[!$POSIX]
+				"name"		"EveTrebuchet"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"24"	[$POSIX]
 				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTrebuchet"
+				"tall"		"42"
+				"weight"	"900"
+				"yres"	"1024 1199"
+			}
 			"1"			// browser item players and map name
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
+				"name"		"Trebuchet MS"	[!$POSIX]
+				"name"		"EveTrebuchet"	[$POSIX]
+				"tall"		"18"	[!$POSIX]
+				"tall"		"19"	[$POSIX]
 				"weight"	"900"
 			}
 		}		
@@ -2847,30 +3169,59 @@ Scheme
 		}
 		MatchmakingDialogMenuSmall
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"51"
+				"tall_lodef"		"18"
+				"weight"	"900"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"23"	[$POSIX]
 				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuSmallest
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"41"
+				"tall_lodef"		"18"
+				"weight"	"900"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"18"	[!$POSIX]
+				"tall"		"19"	[$POSIX]
 				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
 		RankingDialogHeaders
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"35"
+				"weight"	"900"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"15"	[!$POSIX]
+				"tall"		"16"	[$POSIX]
 				"weight"	"900"
 			}
 		}
@@ -2910,20 +3261,41 @@ Scheme
 		}			
 		"AchievementNotification"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTrebuchet"
+				"tall"		"33"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
+				"name"		"Trebuchet MS"	[!$POSIX]
+				"name"		"EveTrebuchet"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"900"
 				"antialias" "1"
 			}
 		}
 		"ImportToolSmallestBold"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"24"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"10"	[!$POSIX]
+				"tall"		"11"	[$POSIX]
 				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2931,10 +3303,21 @@ Scheme
 		}
 		"ImportToolSmallest"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"10"	[!$POSIX]
+				"tall"		"11"	[$POSIX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2942,10 +3325,21 @@ Scheme
 		}
 		"SpectatorVerySmall"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2956,8 +3350,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"10"	[!$POSIX]
+				"tall"		"12"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -2965,8 +3361,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
@@ -2974,8 +3372,10 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"15"	[!$POSIX]
+				"tall"		"17"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -3040,10 +3440,20 @@ Scheme
 		}
 		ItemFontAttribSmallv2
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"antialias" "1"
+				"weight"	"500"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -3107,10 +3517,21 @@ Scheme
 		}
 		"AchievementTracker_Desc"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3118,10 +3539,21 @@ Scheme
 		}
 		"QuestObjectiveTracker_Desc"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3129,20 +3561,42 @@ Scheme
 		}
 		"QuestObjectiveTracker_DescGlow"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -3151,10 +3605,20 @@ Scheme
 		}
 		"ItemTrackerScore_InGame"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"17"
+				"weight"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"7"	[!$POSIX]
+				"tall"		"8"	[$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -3379,10 +3843,21 @@ Scheme
 		
 		"AdFont_AdText"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3390,10 +3865,20 @@ Scheme
 		}
 		"AdFont_PurchaseButton"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"weight"	"0"
+				"antialias" 	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -3401,10 +3886,21 @@ Scheme
 
 		"TradeUp_Text"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveVerdana"
+				"tall"		"19"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"8"	[!$POSIX]
+				"tall"		"9"	[$POSIX]
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -3413,10 +3909,22 @@ Scheme
 
 		"TradeUp_Quote"
 		{
+			"linux1080"	[$POSIX]
+			{
+				"name"		"EveTrebuchet"
+				"tall"		"22"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+				"yres"	"1024 1199"
+			}
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"9"
+				"name"		"Trebuchet MS"	[!$POSIX]
+				"name"		"EveTrebuchet"	[$POSIX]
+				"tall"		"9"	[!$POSIX]
+				"tall"		"10"	[$POSIX]
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -3431,24 +3939,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -3456,8 +3970,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -3465,8 +3981,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"16"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -3488,24 +4006,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"12"	[!$POSIX]
+				"tall"		"13"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"13"	[!$POSIX]
+				"tall"		"14"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"14"	[!$POSIX]
+				"tall"		"15"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -3513,8 +4037,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"20"	[!$POSIX]
+				"tall"		"22"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -3522,8 +4048,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana"	[!$POSIX]
+				"name"		"EveVerdana"	[$POSIX]
+				"tall"		"22"	[!$POSIX]
+				"tall"		"24"	[$POSIX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -6684,5 +7212,18 @@ Scheme
 			"name" "broeselhud Crosshairs"
 		}	
 		"8" "resource/ocra.ttf"		
+		// Linux: renamed MS core fonts, see resource/fonts/make_linux_fonts.py
+		"9"	"resource/fonts/eveverdanaol.ttf"
+		"10"	"resource/fonts/eveverdana.ttf"
+		"11"	"resource/fonts/eveverdanab.ttf"
+		"12"	"resource/fonts/eveverdanai.ttf"
+		"13"	"resource/fonts/eveverdanaz.ttf"
+		"14"	"resource/fonts/evetahoma.ttf"
+		"15"	"resource/fonts/evetahomabd.ttf"
+		"16"	"resource/fonts/evetrebuc.ttf"
+		"17"	"resource/fonts/evetrebucbd.ttf"
+		"18"	"resource/fonts/evetrebucit.ttf"
+		"19"	"resource/fonts/evetrebucbi.ttf"
+		"20"	"resource/fonts/evechat14.ttf"
 	}
 }
